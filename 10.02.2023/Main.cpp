@@ -12,6 +12,7 @@ int main()
 	system("chcp 1251>nul");
 	int n, m;
 	int sum;
+	std::cout << "Hello world!\n\n";
 	//Задача 1.Сортировка половины массива
 	/*std::cout << "Задача 1.\nИзначальный массив\n";
 	const int size1 = 10;
@@ -72,7 +73,7 @@ int main()
 	//Задача 3. Вхождение в диапазон.
 
 
-	/*std::cout << "Задача 3\n Введите начало диапазона ->";
+	std::cout << "Задача 3\n Введите начало диапазона ->";
 	std::cin >> n;
 	std::cout << "Введите конец диапазона ->";
 	std::cin >> m;
@@ -87,7 +88,7 @@ int main()
 		else
 			std::cout << i + 1 << ". " << arr3[i] << '\n';
 	}
-	std::cout << std::endl;*/
+	std::cout << std::endl;
 
 	//Модуль 4 занятие 32, система контроля версий
 
